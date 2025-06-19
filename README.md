@@ -48,11 +48,13 @@ Password: root123
 ### Student Dropout Monitoring
 Dashboard ini dirancang untuk memberikan wawasan strategis mengenai fenomena dropout mahasiswa di institusi pendidikan tinggi. Melalui visualisasi data interaktif yang dibangun menggunakan Metabase dan terkoneksi ke database PostgreSQL melalui Docker, dashboard ini menyajikan analisis menyeluruh terhadap faktor-faktor utama yang memengaruhi kemungkinan mahasiswa mengalami dropout.
 
-1. Student Status Distribution (Donut Chart Kiri)
+1. Student Status Distribution
 Menampilkan distribusi keseluruhan 4.424 mahasiswa berdasarkan status akademik:
 - Gr (Graduate): 50% → Mahasiswa yang telah lulus.
 - Do (Dropout): 32% → Mahasiswa yang mengalami dropout.
 - Er (Enrolled atau masih aktif): 18% → Mahasiswa yang masih terdaftar dan belum menyelesaikan studi.
+
+  ![Student Status Distribution]([assets/dashboard-prediksi.png](https://github.com/Rahmat-Ramadhan15/jji-dropout-predictor/blob/1a20a8a0fcda74cb3e05cfff7f502fd5e77fc6a4/assets/student-status-distribution.png))
 
   Interpretasi: Mayoritas mahasiswa berhasil lulus, tetapi sekitar 1/3 mengalami dropout, dan sisanya masih aktif belajar.
 
